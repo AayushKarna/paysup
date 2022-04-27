@@ -1,0 +1,3 @@
+RewriteEngine On 
+RewriteCond %{HTTPS} off 
+RewriteRule ^(.*)$ https://himalayanheritageva.com%{REQUEST_URI} [L,R=301]
